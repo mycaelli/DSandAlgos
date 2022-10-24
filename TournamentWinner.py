@@ -8,6 +8,12 @@ input: 2 arrays, competitions and results
 output: The winner of the tournament
 
 There will always be one tournament winner and there will neve be any ties.
+
+
+Example
+competitions [['HTML', 'C#'], ['C#', 'Python'], ['Python', 'HTML']]
+results [0, 0, 1]
+winner Python
 '''
 def tournamentWinner(competitions, results):
     winner = {}
