@@ -6,6 +6,8 @@ input: 2 arrays, competitions and results
         In results array, 1 means the homeTeam won and 0 means the awayTeam won.
 
 output: The winner of the tournament
+
+There will always be one tournament winner and there will neve be any ties.
 '''
 def tournamentWinner(competitions, results):
     winner = {}
